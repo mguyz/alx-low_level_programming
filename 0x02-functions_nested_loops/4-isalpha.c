@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabeti letters
- * @c: a charter to be checked on
- *Return: returns 0 or 1
+ * _isalpha - checks for alphabetic character
+ * @c: c is an ascii character
+ *
+ * Return: 1 (if letter)
  */
 
 int _isalpha(int c)
