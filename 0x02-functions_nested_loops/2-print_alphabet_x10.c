@@ -1,20 +1,26 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabet times
+ * print_alphabet_x10 - print alphabet 10 times
+ *
+ * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-	int j;
-	int x;
+	int round = 0;
+	char letter = 'a';
 
-	for (x = 0; x < 10; x++)
+	while (round < 10)
 	{
-		for (j = 'a' ; j < = 'z' ; j++)
+		letter = 'a';
+		while (letter <= 'z')
 		{
-			_putchar (j);
+			_putchar(letter);
+			letter++;
 		}
-		_putchar ('\n');
+		_putchar('\n');
+
+		round++;
 	}
 }
