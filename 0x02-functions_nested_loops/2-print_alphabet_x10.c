@@ -1,15 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabet 10 times
- *
- * Return: void
+ * print_alphabet_x10 - print alphabet times
  */
 
 void print_alphabet_x10(void)
 {
 	int j;
-
 	int y;
 
 	for (y = 0; y < 10; y++)
@@ -18,5 +15,5 @@ void print_alphabet_x10(void)
 		{
 			_putchar (j);
 		}
-		_putchar ('\n')
-	}
+		_putchar ('\n');
+}
